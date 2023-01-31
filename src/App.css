@@ -1,0 +1,97 @@
+
+header{
+  background-color: white;
+  padding-top: 1rem; ;
+  padding-bottom:1rem ;
+  padding-left:2rem ;
+  padding-right:2rem ; 
+}
+
+body {
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 1000px ;
+  margin: 0 auto;
+  background-color: rgb(14, 13, 13);
+  border-left: 5px solid rgb(242, 91, 10);
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  margin: 0 auto;
+  color: tomato;
+  font-weight: lighter;
+  font-size: 70pt;
+}
+h2 {
+  color:lightgray;
+  font-weight: lighter;
+  font-size: 30pt;
+  margin: 0 auto;
+}
+h3 {
+  margin: 0 auto;
+  color: black;
+  font-weight: lighter;
+  font-size: 50pt;
+}
+
+.p1::first-letter {
+  font-size: 5rem;
+  font-weight: lighter;
+  color: lightgrey;
+}
+
+.p2 {
+  text-align: right;
+  color: tomato
+}
+
+.sub {
+  margin: 0 auto;
+  color:black
+  
+}
+
+main {
+  background-color: white;
+  padding-top: 1rem; ;
+  padding-bottom:1rem ;
+  padding-left:2rem ;
+  padding-right:2rem ;
+  color: lightgray
+}
+article {
+  padding-bottom:4rem ;
+}
+
+footer {
+  background-color: white;
+  padding-top: 1rem; ;
+  padding-bottom:1rem ;
+  padding-left:2rem ;
+  padding-right:2rem ;
+  color: tomato
+}
+
+#Top,ul,a {
+  background-color: white;
+  display: flex; 
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+#Bottom {
+  display: flex; 
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  border-bottom:solid 1px;color: lightgray;
+  padding-bottom:2rem ;
+}
+
+
